@@ -1,25 +1,8 @@
 {
+  "buildCommand": "cd eventx-frontend && npm run build",
+  "outputDirectory": "eventx-frontend/dist",
+  "installCommand": "cd eventx-frontend && npm install",
   "rewrites": [
-    {
-      "source": "/events",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/login",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/register",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/admin/(.*)",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/user/(.*)",
-      "destination": "/index.html"
-    },
     {
       "source": "/(.*)",
       "destination": "/index.html"
